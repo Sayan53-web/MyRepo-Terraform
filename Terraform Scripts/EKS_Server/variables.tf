@@ -11,7 +11,7 @@ variable "my_instance_type" {
 variable "my_key" {
   description = "AWS EC2 Key pair that needs to be associated with EC2 Instance"
   type        = string
-  default     = "varad-cicd-key"
+  default     = "Mykeypair22.pem"
 }
 
 variable "ingressrules" {

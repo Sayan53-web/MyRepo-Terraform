@@ -8,12 +8,12 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "project-register-demo-vd"
+    bucket         = "mys3bucket556"
     key            = "jenkins/terraform.tfstate"
-    region         = "us-east-2"
+    region         = "ap-south-1"
   }
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "ap-south-1"
 }
